@@ -66,9 +66,9 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       lat = pos.latitude;
       long = pos.longitude;
 
-      // my home location[Usman's]
-      lat = 33.602335;
-      long =73.110448;
+      // // my home location[Usman's]
+      // lat = 33.602335;
+      // long =73.110448;
       add(GetHomeData(lat: lat!, long: long!));
     } catch (err) {
       // showSnackBar(context, err.toString());
